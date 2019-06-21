@@ -18,6 +18,10 @@ class QueueController extends Controller
             $payload = json_decode($job->payload);
             $email_queue_id = unserialize($payload->data->command)->getEmailQueueId();
             $email_queue = EmailQueue::find($email_queue_id);
+            if (! $email_queue){
+                Job::find($job->id)->delete();
+                continue;
+            }
             $partner = $email_queue->partner();
             $lead = $email_queue->lead();
             if (! $partner || ! $lead){

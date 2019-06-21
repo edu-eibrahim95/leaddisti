@@ -46,4 +46,7 @@ class LeadEmail implements ShouldQueue
         $email_queue->status = 1;
         $email_queue->save();
     }
+    public function getEmailQueueId(){
+        return $this->email_queue_id;
+    }
 }

@@ -26,7 +26,7 @@ class QueueController extends Controller
             Mail::to($partner->email)->send(new LeadMailable($partner, $lead));
             $email_queue->status = 1;
             $email_queue->save();
-            $job->delete();
+            Job::find($job->id)->delete();
         }
 
         Session::flash('queu_worked', 'queue started successfully');

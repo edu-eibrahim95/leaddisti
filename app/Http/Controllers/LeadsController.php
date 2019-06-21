@@ -102,4 +102,5 @@ class LeadsController extends VoyagerBaseController
             EmailQueue::create(['lead_id'=>$data->id, 'partner_id'=>$partner->id]);
         }
     }
+
 }

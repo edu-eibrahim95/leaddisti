@@ -23,6 +23,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::group(['prefix'=>'admin'], function () {
     Voyager::routes();
     Route::post('partners/upload', 'CSVController@upload')->name('upload_csv');
+    Route::post('queue/work', 'QueueController@processQueue')->name('process_queue');
 });
 Route::get('mailable', function () {
     $p = App\Partner::find(128);

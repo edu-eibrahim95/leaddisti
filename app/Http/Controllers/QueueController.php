@@ -23,9 +23,10 @@ class QueueController extends Controller
             if (! $partner || ! $lead){
                 continue;
             }
-            Mail::to($partner->email)->queue(new LeadMailable($partner, $lead));
+            Mail::to($partner->email)->send(new LeadMailable($partner, $lead));
             $email_queue->status = 1;
             $email_queue->save();
+            $job->delete();
         }
 
         Session::flash('queu_worked', 'queue started successfully');

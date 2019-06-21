@@ -37,13 +37,13 @@
         <th style="border: 1px solid black; background: #ffc000; padding: 5px 10px; margin: 5px 10px">  PDF file</th>
         <td style="border: 1px solid black; padding: 5px 10px">
             @if(! empty($lead->pdf_url))
-                <a href="{{$lead->pdf_url}}">{{$lead->refence}}</a>
+                <a href="{{$lead->pdf_url}}">{{$lead->refernce}}</a>
             @endif
             @if(! empty($lead->pdf_file) && count(json_decode($lead->pdf_file)) > 0)
                 @if(! empty($lead->pdf_url))
                     Or
                 @endif
-                <a href="{{Storage::disk(config('voyager.storage.disk'))->url(json_decode($lead->pdf_file)[0]->download_link)}}">{{$lead->refence}}</a>
+                <a href="{{Storage::disk(config('voyager.storage.disk'))->url(json_decode($lead->pdf_file)[0]->download_link)}}">{{$lead->refernce}}</a>
             @endif
         </td>
     </tr>

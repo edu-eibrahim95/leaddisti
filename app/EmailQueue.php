@@ -13,7 +13,7 @@ class EmailQueue extends Model
     {
         parent::boot();
         static::created(function ($item) {
-            LeadEmail::dispatch($item->id);
+            LeadEmail::dispatch($item->id)->onQueue('leads');
         });
     }
 

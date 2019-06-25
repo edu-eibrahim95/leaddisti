@@ -10,7 +10,7 @@ use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Support\Facades\Storage;
 
-class LeadMailable extends Mailable
+class LeadMailable extends Mailable implements ShouldQueue
 {
     use Queueable, SerializesModels;
 

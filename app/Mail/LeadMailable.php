@@ -14,16 +14,12 @@ class LeadMailable extends Mailable implements ShouldQueue
 {
     use Queueable, SerializesModels;
 
-    /**
-     * Create a new message instance.
-     *
-     * @param Partner $partner
-     * @param Lead $lead
-     */
-    public function __construct(Partner $partner, Lead $lead)
+    public $partner_id;
+    public $lead_id;
+    public function __construct($partner,$lead)
     {
-        $this->partner = $partner;
-        $this->lead = $lead;
+        $this->partner_id = $partner;
+        $this->lead_id = $lead;
     }
 
     /**
@@ -33,6 +29,8 @@ class LeadMailable extends Mailable implements ShouldQueue
      */
     public function build()
     {
+        $this->lead = Lead::find($this->lead_id);
+        $this->partner = Partner::find($this->partner_id);
         if (! empty($this->lead->pdf_file) && count(json_decode($this->lead->pdf_file)) > 0){
             return $this->from("sasleads@softwareadvisoryservice.com", "Software Advisory Service")
                 ->subject("SAS New Sales Opportunity: ".$this->lead->refernce)

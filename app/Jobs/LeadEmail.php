@@ -42,7 +42,8 @@ class LeadEmail implements ShouldQueue
         if (! $partner || ! $lead){
             return;
         }
-        Mail::to($partner->email)->send(new LeadMailable($partner, $lead));
+        $mailable = new LeadMailable($partner->id, $lead->id);
+        Mail::to($partner->email)->send($mailable);
         $email_queue->status = 1;
         $email_queue->save();
     }

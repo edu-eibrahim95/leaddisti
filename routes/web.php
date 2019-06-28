@@ -29,5 +29,5 @@ Route::get('mailable', function () {
     $p = App\Partner::find(128);
     $invoice = App\Lead::find(1);
 
-    return new App\Mail\LeadMailable($p, $invoice);
+    return new App\Mail\LeadMailable(128, 1);
 });

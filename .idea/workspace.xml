@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce7b461b-fab7-468d-8c9e-64a4d7e93d60" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/mail/lead.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mail/lead.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="ce7b461b-fab7-468d-8c9e-64a4d7e93d60" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +68,7 @@
       <file leaf-file-name="LeadMailable.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Mail/LeadMailable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
+            <state relative-caret-position="96">
               <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
               <folding>
                 <element signature="e#28#41#0#PHP" expanded="true" />
@@ -83,8 +80,17 @@
       <file leaf-file-name="lead.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/mail/lead.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="36" column="116" selection-start-line="36" selection-start-column="116" selection-end-line="36" selection-end-column="116" />
+            <state relative-caret-position="308">
+              <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -107,20 +113,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="browse.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/vendor/voyager/email-queues/browse.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="30" column="95" selection-start-line="30" selection-start-column="95" selection-end-line="30" selection-end-column="95" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>relatio</find>
       <find>pivot</find>
       <find>updated</find>
       <find>model</find>
@@ -133,34 +129,35 @@
       <find>Region</find>
       <find>specialism</find>
       <find>Turnover</find>
-      <find />
+      <find>where(['type'=&gt; 0 ])-&gt;</find>
       <find>store</find>
       <find>$val</find>
       <find>field</find>
       <find>lead</find>
       <find>update</find>
       <find>&lt;th&gt;</find>
-      <find />
+      <find>&lt;th style=&quot;border: 1px solid black; background: #ffc000&quot;&gt;</find>
       <find>&lt;tr&gt;</find>
       <find>&lt;td&gt;</find>
-      <find />
+      <find>&lt;td style=&quot;border: 1px solid black; padding: 5px&quot;&gt;</find>
       <find>file</find>
-      <find />
+      <find>#ffc000; padding: 0; margin:0&quot;</find>
       <find>mail</find>
       <find>processQueue</find>
-      <find>refernce</find>
       <find>send</find>
+      <find>?</find>
+      <find>refernce</find>
     </findStrings>
     <replaceStrings>
       <replace>Specialism</replace>
       <replace>turnover</replace>
       <replace>EmployeeBand</replace>
       <replace>partner</replace>
-      <replace />
-      <replace />
-      <replace />
-      <replace />
-      <replace />
+      <replace>&lt;th style=&quot;border: 1px solid black; background: #ffc000; padding: 0; margin:0&quot;&gt;</replace>
+      <replace>&lt;tr style=&quot;padding:0; margin: 0&quot;&gt;</replace>
+      <replace>&lt;td style=&quot;border: 1px solid black&quot;&gt;</replace>
+      <replace>&lt;td style=&quot;border: 1px solid black; padding: 5px 10px&quot;&gt;</replace>
+      <replace>#ffc000; padding: 5px 10px; margin: 5px 10px&quot;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/vendor/tcg</dir>
@@ -204,7 +201,6 @@
         <option value="$PROJECT_DIR$/app/Events/EmailQueueEvent.php" />
         <option value="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
         <option value="$PROJECT_DIR$/config/mail.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/vendor/voyager/email-queues/browse.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/LeadsController.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -213,6 +209,7 @@
         <option value="$PROJECT_DIR$/app/Jobs/LeadEmail.php" />
         <option value="$PROJECT_DIR$/app/Mail/LeadMailable.php" />
         <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/mail/lead.blade.php" />
       </list>
     </option>
@@ -445,16 +442,15 @@
       <workItem from="1560778835352" duration="948000" />
       <workItem from="1561115276055" duration="1696000" />
       <workItem from="1561118455731" duration="4036000" />
-      <workItem from="1561468451658" duration="9492000" />
+      <workItem from="1561468451658" duration="9986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64926000" />
+    <option name="totallyTimeSpent" value="65420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1030" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -726,13 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="25" column="59" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/vendor/voyager/email-queues/browse.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -799,16 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Mail/LeadMailable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
-          <folding>
-            <element signature="e#28#41#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/QueueController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -833,10 +812,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Mail/LeadMailable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+          <folding>
+            <element signature="e#28#41#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/mail/lead.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="36" column="116" selection-start-line="36" selection-start-column="116" selection-end-line="36" selection-end-column="116" />
+        <state relative-caret-position="308">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
         </state>
       </provider>
     </entry>

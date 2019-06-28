@@ -34,7 +34,8 @@ class LeadMailable extends Mailable implements ShouldQueue
         if (! empty($this->lead->pdf_file) && count(json_decode($this->lead->pdf_file)) > 0){
             return $this->from("sasleads@softwareadvisoryservice.com", "Software Advisory Service")
                 ->subject("SAS New Sales Opportunity: ".$this->lead->refernce)
-                ->view('mail.lead')->attach(Storage::disk(config('voyager.storage.disk'))->url(json_decode($this->lead->pdf_file)[0]->download_link))
+                ->view('mail.lead')->attach(Storage::disk(config('voyager.storage.disk'))->url(json_decode($this->lead->pdf_file)[0]->download_link),
+                    ['as'=>json_decode($this->lead->pdf_file)[0]->original_name])
                     ->with(['lead'=>$this->lead, 'partner'=>$this->partner]);
         }
         return $this->from("sasleads@softwareadvisoryservice.com", "Software Advisory Service")

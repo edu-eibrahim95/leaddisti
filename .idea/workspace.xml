@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ce7b461b-fab7-468d-8c9e-64a4d7e93d60" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeadMailable.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LeadMailable.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Mail/LeadMailable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="36" column="88" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="88" />
+            <state relative-caret-position="73">
+              <caret line="35" column="78" lean-forward="true" selection-start-line="35" selection-start-column="78" selection-end-line="35" selection-end-column="78" />
               <folding>
                 <element signature="e#28#41#0#PHP" expanded="true" />
               </folding>
@@ -61,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+            <state relative-caret-position="215">
+              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -75,15 +76,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
               <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".env1" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env1">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -117,19 +109,19 @@
       <find>Region</find>
       <find>specialism</find>
       <find>Turnover</find>
-      <find />
+      <find>where(['type'=&gt; 0 ])-&gt;</find>
       <find>store</find>
       <find>$val</find>
       <find>field</find>
       <find>lead</find>
       <find>update</find>
       <find>&lt;th&gt;</find>
-      <find />
+      <find>&lt;th style=&quot;border: 1px solid black; background: #ffc000&quot;&gt;</find>
       <find>&lt;tr&gt;</find>
       <find>&lt;td&gt;</find>
-      <find />
+      <find>&lt;td style=&quot;border: 1px solid black; padding: 5px&quot;&gt;</find>
       <find>file</find>
-      <find />
+      <find>#ffc000; padding: 0; margin:0&quot;</find>
       <find>processQueue</find>
       <find>send</find>
       <find>?</find>
@@ -142,11 +134,11 @@
       <replace>turnover</replace>
       <replace>EmployeeBand</replace>
       <replace>partner</replace>
-      <replace />
-      <replace />
-      <replace />
-      <replace />
-      <replace />
+      <replace>&lt;th style=&quot;border: 1px solid black; background: #ffc000; padding: 0; margin:0&quot;&gt;</replace>
+      <replace>&lt;tr style=&quot;padding:0; margin: 0&quot;&gt;</replace>
+      <replace>&lt;td style=&quot;border: 1px solid black&quot;&gt;</replace>
+      <replace>&lt;td style=&quot;border: 1px solid black; padding: 5px 10px&quot;&gt;</replace>
+      <replace>#ffc000; padding: 5px 10px; margin: 5px 10px&quot;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/vendor/tcg</dir>
@@ -196,10 +188,10 @@
         <option value="$PROJECT_DIR$/app/EmailQueue.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/QueueController.php" />
         <option value="$PROJECT_DIR$/app/Jobs/LeadEmail.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/mail/lead.blade.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Mail/LeadMailable.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
       </list>
     </option>
   </component>
@@ -475,10 +467,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78693000" />
+    <option name="totallyTimeSpent" value="79328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1030" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -536,6 +529,16 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Mail/LeadMailable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="35" column="78" lean-forward="true" selection-start-line="35" selection-start-column="78" selection-end-line="35" selection-end-column="78" />
+          <folding>
+            <element signature="e#28#41#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/vendor/voyager/formfields/relationship.blade.php" />
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Voyager/VoyagerBaseController.php" />
     <entry file="file://$PROJECT_DIR$/config/voyager.php">
@@ -801,13 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/mail/lead.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1265">
@@ -822,16 +818,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/tcg/voyager/resources/views/login.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.env1" />
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/QueueController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -858,11 +845,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Mail/LeadMailable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="36" column="88" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="88" />
+        <state relative-caret-position="73">
+          <caret line="35" column="78" lean-forward="true" selection-start-line="35" selection-start-column="78" selection-end-line="35" selection-end-column="78" />
           <folding>
             <element signature="e#28#41#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
         </state>
       </provider>
     </entry>

@@ -25,6 +25,9 @@ Route::group(['prefix'=>'admin'], function () {
     Route::post('partners/upload', 'CSVController@upload')->name('upload_csv');
     Route::post('queue/work', 'QueueController@processQueue')->name('process_queue');
 });
+Route::get('/', function () {
+    return redirect('/admin');
+});
 Route::get('mailable', function () {
     $p = App\Partner::find(128);
     $invoice = App\Lead::find(1);

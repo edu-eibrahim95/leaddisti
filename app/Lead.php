@@ -8,6 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Lead extends Model
 {
     protected $guarded = [];
+    protected $perPage = 100;
+
     public function region(){
         return $this->belongsTo('App\Region', 'category_id');
     }

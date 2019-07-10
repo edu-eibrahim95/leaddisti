@@ -9,6 +9,8 @@ use Illuminate\Database\Eloquent\Model;
 class EmailQueue extends Model
 {
     protected $guarded =[];
+    protected $perPage = 100;
+
     public static function boot()
     {
         parent::boot();

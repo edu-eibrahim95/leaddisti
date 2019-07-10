@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Partner extends Model
 {
     protected $guarded = [];
+    protected $perPage = 100;
     public function regions(){
         return $this->belongsToMany('App\Region', 'partner_regions');
     }

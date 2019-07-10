@@ -128,19 +128,19 @@
       <find>Region</find>
       <find>specialism</find>
       <find>Turnover</find>
-      <find>where(['type'=&gt; 0 ])-&gt;</find>
+      <find />
       <find>store</find>
       <find>$val</find>
       <find>field</find>
       <find>lead</find>
       <find>update</find>
       <find>&lt;th&gt;</find>
-      <find>&lt;th style=&quot;border: 1px solid black; background: #ffc000&quot;&gt;</find>
+      <find />
       <find>&lt;tr&gt;</find>
       <find>&lt;td&gt;</find>
-      <find>&lt;td style=&quot;border: 1px solid black; padding: 5px&quot;&gt;</find>
+      <find />
       <find>file</find>
-      <find>#ffc000; padding: 0; margin:0&quot;</find>
+      <find />
       <find>processQueue</find>
       <find>send</find>
       <find>?</find>
@@ -158,11 +158,11 @@
       <replace>turnover</replace>
       <replace>EmployeeBand</replace>
       <replace>partner</replace>
-      <replace>&lt;th style=&quot;border: 1px solid black; background: #ffc000; padding: 0; margin:0&quot;&gt;</replace>
-      <replace>&lt;tr style=&quot;padding:0; margin: 0&quot;&gt;</replace>
-      <replace>&lt;td style=&quot;border: 1px solid black&quot;&gt;</replace>
-      <replace>&lt;td style=&quot;border: 1px solid black; padding: 5px 10px&quot;&gt;</replace>
-      <replace>#ffc000; padding: 5px 10px; margin: 5px 10px&quot;</replace>
+      <replace />
+      <replace />
+      <replace />
+      <replace />
+      <replace />
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/vendor/tcg</dir>
@@ -462,7 +462,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value=".env&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/.env1&#10;web&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/routes/web.php&#10;mail&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/mail.php&#10;CSVController&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/app/Http/Controllers/CSVController.php&#10;web.p&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/routes/web.php&#10;files&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/filesystems.php&#10;we&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/routes/web.php&#10;EventServiceProvider.php&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/app/Providers/EventServiceProvider.php&#10;base&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/src/Http/Controllers/VoyagerBaseController.php&#10;app.php&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/app.php&#10;شححسث&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/app/Providers/AppServiceProvider.php&#10;controller.php&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/src/Http/Controllers/Controller.php&#10;voyager.php&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/voyager.php&#10;basecon&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/src/Http/Controllers/VoyagerBaseController.php&#10;apps&#9;null&#9;null&#10;edit-add&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/resources/views/bread/edit-add.blade.php&#10;voya&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/src/Http/Controllers/VoyagerController.php&#10;breadc&#9;null&#9;null&#10;compo&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/composer.json&#10;VoyagerController&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="partner&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/app/Partner.php&#10;.env&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/.env1&#10;web&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/routes/web.php&#10;mail&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/mail.php&#10;CSVController&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/app/Http/Controllers/CSVController.php&#10;web.p&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/routes/web.php&#10;files&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/filesystems.php&#10;we&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/routes/web.php&#10;EventServiceProvider.php&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/app/Providers/EventServiceProvider.php&#10;base&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/src/Http/Controllers/VoyagerBaseController.php&#10;app.php&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/app.php&#10;شححسث&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/app/Providers/AppServiceProvider.php&#10;controller.php&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/src/Http/Controllers/Controller.php&#10;voyager.php&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/voyager.php&#10;basecon&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/src/Http/Controllers/VoyagerBaseController.php&#10;apps&#9;null&#9;null&#10;edit-add&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/resources/views/bread/edit-add.blade.php&#10;voya&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/src/Http/Controllers/VoyagerController.php&#10;breadc&#9;null&#9;null&#10;compo&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/composer.json&#10;VoyagerController&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../../nouser/Projects/freelancer/pph/jamie/leads/leads/storage/framework/views/f4e6aa81404581e943226224fc969d86b9296def.php" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />

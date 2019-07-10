@@ -205,9 +205,9 @@ class LeadsController extends VoyagerBaseController
         $partners = $partners->where(function($query) use($turnovers, $specialisms, $employee_bands){
             $query->whereHas('turnovers', function($query) use ($turnovers) {
                 $query->whereIn('categories.id', $turnovers->pluck('id'));
-            })->andWhereHas('specialisms', function($query) use ($specialisms) {
+            })->whereHas('specialisms', function($query) use ($specialisms) {
                 $query->whereIn('categories.id', $specialisms->pluck('id'));
-            })->andWhereHas('employee_bands', function($query) use ($employee_bands) {
+            })->whereHas('employee_bands', function($query) use ($employee_bands) {
                 $query->whereIn('categories.id', $employee_bands->pluck('id'));
             });
         });

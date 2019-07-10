@@ -7,7 +7,7 @@ use TCG\Voyager\Database\Schema\SchemaManager;
 use TCG\Voyager\Facades\Voyager;
 use TCG\Voyager\Http\Controllers\VoyagerBaseController;
 
-class PartnersController extends VoyagerBaseController
+class CategoriesController extends VoyagerBaseController
 {
     public function index(Request $request)
     {
@@ -20,7 +20,7 @@ class PartnersController extends VoyagerBaseController
         // Check permission
         $this->authorize('browse', app($dataType->model_name));
 
-        $getter =  'paginate';
+        $getter = 'paginate';
 
         $search = (object) ['value' => $request->get('s'), 'key' => $request->get('key'), 'filter' => $request->get('filter')];
         $searchable = $dataType->server_side ? array_keys(SchemaManager::describeTable(app($dataType->model_name)->getTable())->toArray()) : '';

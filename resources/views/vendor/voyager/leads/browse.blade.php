@@ -27,24 +27,6 @@
                 <input type="checkbox" @if ($showSoftDeleted) checked @endif id="show_soft_deletes" data-toggle="toggle" data-on="{{ __('voyager::bread.soft_deletes_off') }}" data-off="{{ __('voyager::bread.soft_deletes_on') }}">
             @endif
         @endcan
-        @can('add', app($dataType->model_name))
-            <form class="form" method="POST" action="{{route('upload_csv')}}" enctype="multipart/form-data">
-                {!! csrf_field() !!}
-                <div class="container bg-info">
-                    <br>
-                    <div class="row">
-                        <div class="custom-file col-md-8">
-                            <input type="file" name="files[]" class="custom-file-input form-control" id="customFile" required multiple>
-                        </div>
-                        <div class="col-md-4">
-                            <button type="submit"  class="btn btn-primary btn-add-new">
-                                <i class="voyager-plus"></i> <span>{{ __('custom.upload_csv') }}</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </form>
-        @endcan
         @foreach(Voyager::actions() as $action)
             @if (method_exists($action, 'massAction'))
                 @include('voyager::bread.partials.actions', ['action' => $action, 'data' => null])

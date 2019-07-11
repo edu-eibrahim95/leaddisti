@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce7b461b-fab7-468d-8c9e-64a4d7e93d60" name="Default" comment="" />
+    <list default="true" id="ce7b461b-fab7-468d-8c9e-64a4d7e93d60" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/vendor/voyager/email-queues/browse.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/voyager/email-queues/browse.blade.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,16 +20,43 @@
       <file leaf-file-name="LeadsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LeadsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="186" column="20" lean-forward="true" selection-start-line="186" selection-start-column="20" selection-end-line="186" selection-end-column="20" />
+            <state relative-caret-position="3625">
+              <caret line="209" column="17" selection-start-line="209" selection-start-column="17" selection-end-line="209" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Partner.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="browse.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/vendor/voyager/email-queues/browse.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="333" column="34" selection-start-line="333" selection-start-column="34" selection-end-line="333" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/tcg/voyager/resources/views/master.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="voyager.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/voyager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-304">
+              <caret line="128" column="51" selection-start-line="128" selection-start-column="47" selection-end-line="128" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Partner.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Partner.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
+            <state relative-caret-position="230">
               <caret line="10" selection-start-line="10" selection-end-line="11" />
             </state>
           </provider>
@@ -54,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/app/EmployeeBand.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -68,22 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmailQueuesController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EmailQueuesController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-              <folding>
-                <element signature="e#40#68#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="QueueController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/QueueController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
+            <state relative-caret-position="690">
               <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
               <folding>
                 <element signature="e#40#59#0#PHP" expanded="true" />
@@ -92,29 +110,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeadEmail.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Jobs/LeadEmail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-              <folding>
-                <element signature="e#28#47#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProcessQueue.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Jobs/ProcessQueue.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>insertUpdateData</find>
-      <find>validateBread</find>
       <find>$selected_values</find>
       <find>Region</find>
       <find>specialism</find>
@@ -143,6 +142,8 @@
       <find>getter</find>
       <find>links</find>
       <find>total</find>
+      <find>data</find>
+      <find>dash</find>
     </findStrings>
     <replaceStrings>
       <replace>Specialism</replace>
@@ -198,7 +199,6 @@
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Mail/LeadMailable.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/EmailQueuesController.php" />
-        <option value="$PROJECT_DIR$/resources/views/vendor/voyager/email-queues/browse.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PartnersController.php" />
         <option value="$PROJECT_DIR$/resources/views/vendor/voyager/partners/browse.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/CategoriesController.php" />
@@ -206,11 +206,12 @@
         <option value="$PROJECT_DIR$/resources/views/vendor/voyager/leads/browse.blade.php" />
         <option value="$PROJECT_DIR$/app/Jobs/LeadEmail.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/QueueController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/LeadsController.php" />
         <option value="$PROJECT_DIR$/app/Partner.php" />
         <option value="$PROJECT_DIR$/app/Category.php" />
         <option value="$PROJECT_DIR$/app/EmailQueue.php" />
         <option value="$PROJECT_DIR$/app/Lead.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/LeadsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/vendor/voyager/email-queues/browse.blade.php" />
       </list>
     </option>
   </component>
@@ -391,6 +392,15 @@
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="voyager" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="email-queues" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="leads" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leads" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="voyager" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="leads" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -446,9 +456,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="partner&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/app/Partner.php&#10;.env&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/.env1&#10;web&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/routes/web.php&#10;mail&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/mail.php&#10;CSVController&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/app/Http/Controllers/CSVController.php&#10;web.p&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/routes/web.php&#10;files&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/filesystems.php&#10;we&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/routes/web.php&#10;EventServiceProvider.php&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/app/Providers/EventServiceProvider.php&#10;base&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/src/Http/Controllers/VoyagerBaseController.php&#10;app.php&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/app.php&#10;شححسث&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/app/Providers/AppServiceProvider.php&#10;controller.php&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/src/Http/Controllers/Controller.php&#10;voyager.php&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/voyager.php&#10;basecon&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/src/Http/Controllers/VoyagerBaseController.php&#10;apps&#9;null&#9;null&#10;edit-add&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/resources/views/bread/edit-add.blade.php&#10;voya&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/src/Http/Controllers/VoyagerController.php&#10;breadc&#9;null&#9;null&#10;compo&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/composer.json&#10;VoyagerController&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="master.blad&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/resources/views/master.blade.php&#10;voya&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/voyager.php&#10;partner&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/app/Partner.php&#10;.env&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/.env1&#10;web&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/routes/web.php&#10;mail&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/mail.php&#10;CSVController&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/app/Http/Controllers/CSVController.php&#10;web.p&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/routes/web.php&#10;files&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/filesystems.php&#10;we&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/routes/web.php&#10;EventServiceProvider.php&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/app/Providers/EventServiceProvider.php&#10;base&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/src/Http/Controllers/VoyagerBaseController.php&#10;app.php&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/app.php&#10;شححسث&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/app/Providers/AppServiceProvider.php&#10;controller.php&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/src/Http/Controllers/Controller.php&#10;voyager.php&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/voyager.php&#10;basecon&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/src/Http/Controllers/VoyagerBaseController.php&#10;apps&#9;null&#9;null&#10;edit-add&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/resources/views/bread/edit-add.blade.php&#10;breadc&#9;null&#9;null&#10;compo&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/composer.json&#10;VoyagerController&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../../nouser/Projects/freelancer/pph/jamie/leads/leads/storage/framework/views/f4e6aa81404581e943226224fc969d86b9296def.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../../nouser/Projects/php/exams" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -485,12 +495,14 @@
       <workItem from="1561731251241" duration="1096000" />
       <workItem from="1561898178533" duration="11736000" />
       <workItem from="1562597877795" duration="4090000" />
-      <workItem from="1562771712781" duration="2965000" />
+      <workItem from="1562771712781" duration="4318000" />
+      <workItem from="1562837465229" duration="26000" />
+      <workItem from="1562844505722" duration="1979000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87851000" />
+    <option name="totallyTimeSpent" value="91209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1030" extended-state="6" />
@@ -499,10 +511,10 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30811402" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.240625" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30811402" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.240625" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -551,13 +563,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/lang/en/custom.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -753,9 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
           <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
-          <folding>
-            <element signature="e#28#41#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -777,9 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -794,10 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="32" selection-start-line="32" selection-end-line="144" />
-          <folding>
-            <element signature="e#48#93#0#PHP" expanded="true" />
-            <element signature="e#909#5698#0#PHP" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -812,26 +807,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="264" column="51" selection-start-line="264" selection-start-column="51" selection-end-line="264" selection-end-column="51" />
-          <folding>
-            <element signature="e#21439#21446#1#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/vendor/voyager/email-queues/browse.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="266" column="95" selection-start-line="266" selection-start-column="90" selection-end-line="266" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Jobs/ProcessQueue.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Jobs/LeadEmail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        <state relative-caret-position="1081">
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
           <folding>
             <element signature="e#28#47#0#PHP" expanded="true" />
           </folding>
@@ -850,18 +832,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/QueueController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
+        <state relative-caret-position="690">
           <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
           <folding>
             <element signature="e#40#59#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LeadsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="186" column="20" lean-forward="true" selection-start-line="186" selection-start-column="20" selection-end-line="186" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -882,7 +857,7 @@
     <entry file="file://$PROJECT_DIR$/app/EmployeeBand.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -895,8 +870,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Partner.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
+        <state relative-caret-position="230">
           <caret line="10" selection-start-line="10" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LeadsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3625">
+          <caret line="209" column="17" selection-start-line="209" selection-start-column="17" selection-end-line="209" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/voyager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <caret line="128" column="51" selection-start-line="128" selection-start-column="47" selection-end-line="128" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/tcg/voyager/resources/views/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/vendor/voyager/email-queues/browse.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="333" column="34" selection-start-line="333" selection-start-column="34" selection-end-line="333" selection-end-column="34" />
         </state>
       </provider>
     </entry>

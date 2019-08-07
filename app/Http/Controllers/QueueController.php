@@ -28,8 +28,8 @@ class QueueController extends Controller
                 continue;
             }
             foreach(explode(';', $partner->email) as $email){
-                if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-                    Mail::to($email)->send(new LeadMailable($partner->id, $lead->id));
+                if (filter_var(trim($email), FILTER_VALIDATE_EMAIL)) {
+                    Mail::to(trim($email))->send(new LeadMailable($partner->id, $lead->id));
                 }
             }
             $email_queue->status = 1;

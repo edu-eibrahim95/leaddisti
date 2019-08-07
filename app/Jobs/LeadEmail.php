@@ -44,8 +44,8 @@ class LeadEmail implements ShouldQueue
         }
         $mailable = new LeadMailable($partner->id, $lead->id);
         foreach(explode(';', $partner->email) as $email){
-            if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-                Mail::to($email)->send($mailable);
+            if (filter_var(trim($email), FILTER_VALIDATE_EMAIL)) {
+                Mail::to(trim($email))->send($mailable);
             }
         }
         $email_queue->status = 1;

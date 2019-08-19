@@ -149,7 +149,9 @@ class LeadsController extends VoyagerBaseController
 
         event(new BreadDataAdded($dataType, $data));
 
-        $this->processData($data);
+        $partners = $this->processData($data);
+//        $dataTypeContent = $data;
+//        return view('reports.lead_report', compact('partners', 'dataTypeContent', 'dataType'));
         return redirect()
             ->route("voyager.{$dataType->slug}.index")
             ->with([
@@ -185,8 +187,9 @@ class LeadsController extends VoyagerBaseController
         $this->insertUpdateData($request, $slug, $dataType->editRows, $data);
 
         event(new BreadDataUpdated($dataType, $data));
-        $this->processData($data);
-
+        $partners = $this->processData($data);
+//        $dataTypeContent = $data;
+//        return view('reports.lead_report', compact('partners', 'dataTypeContent', 'dataType'));
         return redirect()
             ->route("voyager.{$dataType->slug}.index")
             ->with([
@@ -220,6 +223,7 @@ class LeadsController extends VoyagerBaseController
         foreach ($partners as $partner){
             EmailQueue::create(['lead_id'=>$data->id, 'partner_id'=>$partner->id]);
         }
+        return $partners;
     }
     public function destroy(Request $request, $id)
     {

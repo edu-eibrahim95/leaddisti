@@ -248,6 +248,9 @@
                                                     @include('voyager::bread.partials.actions', ['action' => $action])
                                                 @endif
                                             @endforeach
+                                                <a href="{{ route('lead_report', ['lead_id'=>$data->getKey()]) }}" title="Report" class="btn btn-sm btn-success pull-right edit">
+                                                    <i class="voyager-boat"></i> <span class="hidden-xs hidden-sm">Report</span>
+                                                </a>
                                         </td>
                                     </tr>
                                 @endforeach

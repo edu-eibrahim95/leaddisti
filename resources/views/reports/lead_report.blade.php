@@ -44,7 +44,14 @@
                                     <th>Time Scales : </th><td>{{$lead->time_scales}}</td>
                                 </tr>
                                 <tr>
-                                    <th>Pdf File : </th><td>{{$lead->pdf_file}}</td>
+                                    <th>Pdf File : </th><td>
+                                        @foreach(json_decode($lead->pdf_file) as $file)
+                                            <a href="{{ Storage::disk(config('voyager.storage.disk'))->url($file->download_link) ?: '' }}" target="_blank">
+                                                {{ $file->original_name ?: '' }}
+                                            </a>
+                                            <br/>
+                                        @endforeach
+                                    </td>
                                     <th>Pdf Url : </th><td>{{$lead->pdf_url}}</td>
                                     <th>Accepting Till : </th><td>{{$lead->accepting_till}}</td>
                                 </tr>

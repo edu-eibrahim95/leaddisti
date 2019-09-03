@@ -49,18 +49,13 @@
     </tr>
 
 </table>
-<p>According to our records we find the flollowing partners match this lead :</p>
-<table style="border:1px solid black;padding:0; margin: 0;border-collapse: collapse">
-    <tr style="padding:0; margin: 0">
-        <th style="border: 1px solid black; background: #ffc000; padding: 5px 10px; margin: 5px 10px">  Matching Partners</th>
-        <td style="border: 1px solid black; padding: 5px 10px">
-        @foreach($partners as $partner)
-            {{$partner->name}},
-        @endforeach
-        </td>
-    </tr>
-</table>
-<p>Can you review and let us know if you we got your matching parners right?</p>
+<p>According to our records we find the following partners of yours matched this lead:</p>
+<ul>
+    @foreach($partners as $partner)
+        <li>{{$partner->name}}</li>
+    @endforeach
+</ul>
+<p>Can you review and contact any of these partners who haven’t yet engaged?</p>
 <p><b>Kind Regards,</b></p>
 <p><b>Niamh McKenna | Software Advisory Service</b></p>
 <p><img src="{{url('public/logo.jpg')}}"></p>

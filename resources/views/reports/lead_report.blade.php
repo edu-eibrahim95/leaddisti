@@ -14,6 +14,9 @@
         <h1 class="page-title">
             <i class="voyager-receipt"></i> Reports
         </h1>
+        <a href="#" class="btn btn-primary btn-add-new" onclick="$('#send-all').submit()">
+            <i class="voyager-plus"></i> <span>Process Queue</span>
+        </a>
     </div>
 @stop
 
@@ -87,7 +90,7 @@
                                     <th>Account Manager</th>
                                     <th>No. of Matched Partners</th>
                                     <th>Matched Partners</th>
-                                    <th>EMail Group</th>
+                                    <th>Account Manager EMail</th>
                                     <th>Action</th>
                                 </tr>
                                 </thead>
@@ -102,15 +105,12 @@
                                             @endforeach
                                         </td>
                                         <td>
+                                            {{$account_manager->get('emails')}}
                                             <form method="POST" action="{{route('lead_report_email', ['lead_id'=>$lead->id])}}" data-content="{{$account_manager->get('name')}}">
                                                 {!! @csrf_field() !!}
                                                 <input name="account_manager" type="hidden" value="{{$account_manager->get('name')}}">
-                                                <select class="form-control select2" name="email_group_id">
-                                                    @foreach($email_groups as $email_group)
-                                                        <option value="{{$email_group->id}}">{{$email_group->name}}</option>
-                                                    @endforeach
-                                                </select>
                                             </form>
+
                                         </td>
                                         <td>
                                             <a href="#" title="Report" class="btn btn-sm btn-primary pull-right edit"
@@ -131,9 +131,6 @@
                                         <form method="POST" action="{{route('lead_report_email', ['lead_id'=>$lead->id])}}" id="send-all">
                                             {!! @csrf_field() !!}
                                             <input name="account_manager" type="hidden" value="all">
-                                            @foreach($result as $account_manager)
-                                                <input type="hidden" name="email_group_ids[{{$account_manager->get('name')}}]" value="-1" class="all-email-group-id" data-content="{{$account_manager->get('name')}}">
-                                            @endforeach
                                         </form>
                                     </th>
                                     <th>

@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ce7b461b-fab7-468d-8c9e-64a4d7e93d60" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReportsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReportsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/mail/account_manager_report.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mail/account_manager_report.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/reports/lead_report.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/reports/lead_report.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -64,8 +61,8 @@
       <file leaf-file-name="ReportsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReportsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="70" column="61" lean-forward="true" selection-start-line="70" selection-start-column="61" selection-end-line="70" selection-end-column="61" />
+            <state relative-caret-position="1426">
+              <caret line="70" column="61" selection-start-line="70" selection-start-column="61" selection-end-line="70" selection-end-column="61" />
               <folding>
                 <element signature="e#40#63#0#PHP" expanded="true" />
               </folding>
@@ -82,20 +79,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account_manager_report.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="account_manager_report.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/mail/account_manager_report.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
+            <state relative-caret-position="1311">
               <caret line="57" column="76" selection-start-line="57" selection-start-column="76" selection-end-line="57" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="437">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -202,7 +199,6 @@
         <option value="$PROJECT_DIR$/config/mail.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/resources/views/mail/lead.blade.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/EmailQueuesController.php" />
         <option value="$PROJECT_DIR$/resources/views/vendor/voyager/partners/browse.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/CategoriesController.php" />
@@ -229,6 +225,7 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/ReportsController.php" />
         <option value="$USER_HOME$/Downloads/message/message.php" />
         <option value="$PROJECT_DIR$/resources/views/mail/account_manager_report.blade.php" />
+        <option value="$PROJECT_DIR$/.env" />
       </list>
     </option>
   </component>
@@ -239,6 +236,9 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -506,9 +506,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="web&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/routes/web.php&#10;.env&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/.env&#10;master&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/resources/views/master.blade.php&#10;language-selector&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/resources/views/multilingual/language-selector.blade.php&#10;actions.bla&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/resources/views/bread/partials/actions.blade.php&#10;LeadMailable.php&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/app/Mail/LeadMailable.php&#10;master.blad&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/resources/views/master.blade.php&#10;voya&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/voyager.php&#10;partner&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/app/Partner.php&#10;mail&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/mail.php&#10;CSVController&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/app/Http/Controllers/CSVController.php&#10;web.p&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/routes/web.php&#10;files&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/filesystems.php&#10;we&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/routes/web.php&#10;EventServiceProvider.php&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/app/Providers/EventServiceProvider.php&#10;base&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/src/Http/Controllers/VoyagerBaseController.php&#10;app.php&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/app.php&#10;شححسث&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/app/Providers/AppServiceProvider.php&#10;controller.php&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/src/Http/Controllers/Controller.php&#10;voyager.php&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/voyager.php&#10;basecon&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/src/Http/Controllers/VoyagerBaseController.php&#10;apps&#9;null&#9;null&#10;edit-add&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/resources/views/bread/edit-add.blade.php&#10;breadc&#9;null&#9;null&#10;compo&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/composer.json&#10;VoyagerController&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value=".en&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/.env&#10;web&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/routes/web.php&#10;.env&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/.env&#10;master&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/resources/views/master.blade.php&#10;language-selector&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/resources/views/multilingual/language-selector.blade.php&#10;actions.bla&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/resources/views/bread/partials/actions.blade.php&#10;LeadMailable.php&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/app/Mail/LeadMailable.php&#10;master.blad&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/resources/views/master.blade.php&#10;voya&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/voyager.php&#10;partner&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/app/Partner.php&#10;mail&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/mail.php&#10;CSVController&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/app/Http/Controllers/CSVController.php&#10;web.p&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/routes/web.php&#10;files&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/filesystems.php&#10;we&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/routes/web.php&#10;EventServiceProvider.php&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/app/Providers/EventServiceProvider.php&#10;base&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/src/Http/Controllers/VoyagerBaseController.php&#10;app.php&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/app.php&#10;شححسث&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/app/Providers/AppServiceProvider.php&#10;controller.php&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/src/Http/Controllers/Controller.php&#10;voyager.php&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/config/voyager.php&#10;basecon&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/src/Http/Controllers/VoyagerBaseController.php&#10;apps&#9;null&#9;null&#10;edit-add&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/vendor/tcg/voyager/resources/views/bread/edit-add.blade.php&#10;breadc&#9;null&#9;null&#10;compo&#9;FILE&#9;file:///home/hema/Projects/freelancer/pph/jamie/leads/leads/composer.json&#10;VoyagerController&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../../nouser/Projects/php/mais" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -566,11 +566,13 @@
       <workItem from="1566504369386" duration="21000" />
       <workItem from="1566504426351" duration="3127000" />
       <workItem from="1566639472075" duration="1123000" />
+      <workItem from="1568141066106" duration="2813000" />
+      <workItem from="1568455740305" duration="445000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149516000" />
+    <option name="totallyTimeSpent" value="152774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1030" extended-state="6" />
@@ -579,9 +581,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23620309" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1546875" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -906,13 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/mail/lead.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1219">
@@ -968,16 +963,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReportsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="70" column="61" lean-forward="true" selection-start-line="70" selection-start-column="61" selection-end-line="70" selection-end-column="61" />
-          <folding>
-            <element signature="e#40#63#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/reports/lead_report.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -987,8 +972,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/mail/account_manager_report.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
+        <state relative-caret-position="1311">
           <caret line="57" column="76" selection-start-line="57" selection-start-column="76" selection-end-line="57" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReportsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1426">
+          <caret line="70" column="61" selection-start-line="70" selection-start-column="61" selection-end-line="70" selection-end-column="61" />
+          <folding>
+            <element signature="e#40#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
         </state>
       </provider>
     </entry>
